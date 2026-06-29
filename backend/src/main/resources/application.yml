@@ -1,0 +1,35 @@
+spring:
+  ai:
+    chat:
+      memory:
+        repository:
+          jdbc:
+            initialize-schema: never
+      observations:
+        log-prompt: true
+        log-completion: true
+    gigachat:
+      unsafe-ssl: true
+      scope: GIGACHAT_API_PERS
+      client-id: ${GIGACHAT_CLIENT_ID}
+      client-secret: ${GIGACHAT_CLIENT_SECRET}
+      chat:
+        options:
+          model: GigaChat-Max
+          temperature: 0.2
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+server:
+  port: 8080
+
+app:
+  base-url: ${APP_BASE_URL:https://inal.tuaev.ru}
+  media-path: /home/historeel/resume/media/
