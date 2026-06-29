@@ -53,6 +53,7 @@
           <a href="mailto:inal4353@mail.ru" class="link-pill">✉ inal4353@mail.ru</a>
           <a href="https://t.me/inal2i" target="_blank" rel="noopener" class="link-pill">Telegram ↗</a>
           <a href="https://github.com/inal2i" target="_blank" rel="noopener" class="link-pill">GitHub ↗</a>
+          <a href="https://gitflic.ru/user/inal2i" target="_blank" rel="noopener" class="link-pill">GitFlic ↗</a>
           <a href="https://zpshka.ru" target="_blank" rel="noopener" class="link-pill">zpshka.ru ↗</a>
           <a href="/media/InalTuaev.pdf" download class="link-pill link-pill--cv">⬇ Скачать резюме</a>
           <button class="link-pill link-pill--book" @click="showCalendar">📅 Забронировать встречу</button>
